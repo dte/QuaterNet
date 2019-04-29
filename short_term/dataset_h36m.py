@@ -28,7 +28,7 @@ else:
     subjects_test = ['S5']
 
 dataset_path = '/storage/quaternet/dataset_h36m.npz'
-short_term_weights_path = 'weights_short_term.bin'
+short_term_weights_path = '/artifacts/weights_short_term.bin'
 
 skeleton_h36m = Skeleton(offsets=[
        [   0.      ,    0.      ,    0.      ],
