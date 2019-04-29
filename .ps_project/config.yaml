@@ -1,0 +1,10 @@
+version: 1
+
+type: "single"
+worker:
+  container: "python"
+  command: "python generate_figures.py"
+  machine-type: "GPU+"
+  dockerfile:
+      use: true
+      path: "./Dockerfile"
