@@ -36,7 +36,7 @@ RUN conda env create -f environment.yaml
 COPY . /QuaterNet
 WORKDIR /QuaterNet/
 # Activate Source
-CMD source activate tensorflow_gpu 
+CMD source activate pytorch 
 CMD source ~/.bashrc
 
 RUN chmod -R a+w /QuaterNet
