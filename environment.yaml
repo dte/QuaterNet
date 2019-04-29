@@ -8,10 +8,11 @@ dependencies:
   - jupyter
   - pillow
   - requests
-  - numpy
+  - numpy=1.16.1
   - scipy
   - pytorch 
   - torchvision 
   - cudatoolkit=9.0
+  - pandas
   - pip:
     - gradient-statsd
