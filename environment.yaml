@@ -13,3 +13,5 @@ dependencies:
   - pytorch 
   - torchvision 
   - cudatoolkit=9.0
+  - pip:
+    - gradient-statsd
