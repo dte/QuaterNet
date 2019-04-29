@@ -15,7 +15,7 @@ from shutil import rmtree
 from common.quaternion import qfix
 
 if __name__ == '__main__':
-    output_directory = 'datasets'
+    output_directory = '/storage/quaternet/'
     output_filename = 'dataset_locomotion'
     locomotion_dataset_url = 'http://theorangeduck.com/media/uploads/other_stuff/motionsynth_data.zip'
 
