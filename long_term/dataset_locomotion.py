@@ -61,7 +61,7 @@ skeleton_cmu = Skeleton(offsets=[
     )
 
 dataset_path = '/storage/quaternet/dataset_locomotion.npz'
-long_term_weights_path = 'weights_long_term.bin'
+long_term_weights_path = '/artifacts/weights_long_term.bin'
 dataset = MocapDataset(dataset_path, skeleton_cmu, fps=120)
 
 # Remove useless joints, from both the skeleton and the dataset
