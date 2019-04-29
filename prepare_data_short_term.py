@@ -18,7 +18,7 @@ from common.quaternion import expmap_to_quaternion, qfix
 from shutil import rmtree
 
 if __name__ == '__main__':
-    output_directory = 'datasets'
+    output_directory = '/storage/quaternet/datasets'
     output_filename = 'dataset_h36m'
     h36m_dataset_url = 'http://www.cs.stanford.edu/people/ashesh/h3.6m.zip'
 
