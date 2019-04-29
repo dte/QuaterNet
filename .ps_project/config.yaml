@@ -3,7 +3,7 @@ version: 1
 type: "single"
 worker:
   container: "python"
-  command: "python generate_figures.py"
+  command: "./run.sh"
   machine-type: "K80"
   dockerfile:
       use: true
