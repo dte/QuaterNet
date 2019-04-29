@@ -4,7 +4,7 @@ type: "single"
 worker:
   container: "python"
   command: "python generate_figures.py"
-  machine-type: "GPU+"
+  machine-type: "K80"
   dockerfile:
       use: true
       path: "./Dockerfile"
