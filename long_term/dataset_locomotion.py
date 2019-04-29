@@ -60,7 +60,7 @@ skeleton_cmu = Skeleton(offsets=[
     joints_right = [1, 2, 3, 4, 5, 16, 17, 18, 19, 20]
     )
 
-dataset_path = 'datasets/dataset_locomotion.npz'
+dataset_path = '/storage/quaternet/dataset_locomotion.npz'
 long_term_weights_path = 'weights_long_term.bin'
 dataset = MocapDataset(dataset_path, skeleton_cmu, fps=120)
 
